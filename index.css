@@ -1,0 +1,178 @@
+body {
+  height: 100vh;
+}
+
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col-md-6{
+  padding: 0;
+}
+
+.mainDiv {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.navbar {
+
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: black;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand img {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.nav-link{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  border-top:2px solid transparent;
+}
+
+.nav-link:hover{
+  border-top: 2px solid black;
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.navTitle {
+  color: black;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.section{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.intro{
+  margin-bottom: 30px;
+}
+
+.introHeader{
+  text-align: center;
+  font-weight: 300;
+}
+
+.sectionHeader{
+  font-weight: 300;
+}
+
+.highlight{
+  color: red;
+}
+
+.portrait{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.project{
+	overflow: hidden;
+	height: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.projectHeader{
+  font-weight: 500;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-bottom: 0;
+  color: white;
+  display: inline;
+}
+
+.project p{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+.project img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(26, 20, 16, .85);
+  overflow: hidden;
+  height: 0;
+  transition: .5s ease;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.project:hover .overlay {
+  height: 100%;
+}
+
+.caption {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  left: 50%;
+  width: 95%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.project a{
+  box-sizing: border-box;
+}
+
+footer{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+footer p{
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.fa{
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+}
