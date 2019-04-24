@@ -157,6 +157,16 @@ body {
   box-sizing: border-box;
 }
 
+.pastExperienceHeader{
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+
+.company p{
+  margin-bottom: 3px;
+}
+
 footer{
   text-align: center;
   margin-top: 50px;
