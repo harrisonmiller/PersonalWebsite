@@ -24,4 +24,10 @@ $( document ).ready(function() {
       }, 1000);
   });
 
+  $("#inLineContactNav").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#contact").offset().top
+      }, 1000);
+  });
+
 });

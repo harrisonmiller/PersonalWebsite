@@ -16,10 +16,6 @@ body {
   padding-left: 0 !important;
 }
 
-.navbar {
-
-}
-
 .custom-toggler.navbar-toggler {
   border-color: black;
 }
@@ -63,10 +59,7 @@ body {
 .section{
   margin-left: 10px;
   margin-right: 10px;
-}
-
-.intro{
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .introHeader{
@@ -168,10 +161,6 @@ body {
   box-sizing: border-box;
 }
 
-.experience{
-  margin-bottom: 50px;
-}
-
 .pastExperienceHeader{
   font-weight: 500;
   font-size: 24px;
@@ -180,6 +169,28 @@ body {
 
 .company p{
   margin-bottom: 3px;
+}
+
+.contactHeader{
+  font-weight: 300;
+  font-size: 26px;
+  text-align: center;
+  color: black;
+}
+
+.contactCol{
+  transition: transform .2s;
+}
+
+.contactCol:hover{
+  transform: scale(1.1);
+  border: 1px solid black;
+}
+
+.contactCol img{
+  margin-bottom: 10px;
+  max-width: 150px;
+  max-height: 100px;
 }
 
 footer{
