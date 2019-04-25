@@ -108,6 +108,17 @@ body {
   display: inline;
 }
 
+.mobileProjectHeader{
+  color: black;
+  font-weight: 300;
+  font-size: 30px;
+  border: 1px solid black;
+  margin-bottom: 0;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .project p{
   padding-left: 10px;
   padding-right: 10px;
@@ -155,6 +166,10 @@ body {
 
 .project a{
   box-sizing: border-box;
+}
+
+.experience{
+  margin-bottom: 50px;
 }
 
 .pastExperienceHeader{
