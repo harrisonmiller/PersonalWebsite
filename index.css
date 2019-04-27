@@ -80,14 +80,18 @@ body {
   max-height: 200px;
 }
 
+.col-md-6{
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+}
+
 .project{
 	overflow: hidden;
 	height: auto;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .projectHeader{
@@ -113,16 +117,15 @@ body {
 }
 
 .project p{
-  padding-left: 10px;
-  padding-right: 10px;
   padding-top: 5px;
-  margin-bottom: 0;
+  margin-bottom: .75rem;
 }
 
 .project img{
   display: block;
   width: 100%;
   height: auto;
+  border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
 .overlay{
