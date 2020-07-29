@@ -198,6 +198,7 @@ body {
 .contactCol:hover{
   transform: scale(1.1);
   border: 1px solid black;
+  margin-bottom: 23px;
 }
 
 .contactCol img{
