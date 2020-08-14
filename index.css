@@ -86,6 +86,20 @@ body {
   display: flex;
 }
 
+.leftCol {
+  padding-left: 0px;
+}
+
+.rightCol {
+  padding-right: 0px;
+}
+
+@media (max-width: 768px) {
+  .rightCol, .leftCol {
+    padding: 0px;
+  }
+}
+
 .project{
 	overflow: hidden;
 	height: auto;
