@@ -178,10 +178,18 @@ body {
   box-sizing: border-box;
 }
 
+.pastExperience {
+  padding-bottom: 20px;
+}
+
 .pastExperienceHeader{
   font-weight: 500;
   font-size: 24px;
   margin-bottom: 3px;
+}
+
+.ua_logo {
+  border-radius: 3px;
 }
 
 .company p{
