@@ -45,6 +45,13 @@ body {
   margin-left: 15px;
 }
 
+@media (max-width: 575px){
+  .nav-item {
+    margin-left: 0px;
+    text-align: center;
+  }
+}
+
 .navbar-nav {
   margin-left: auto;
   margin-right: 0;
