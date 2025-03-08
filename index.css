@@ -195,7 +195,13 @@ body {
   margin-bottom: 3px;
 }
 
-.ua_logo, .gartner_logo {
+.company {
+  margin-bottom: 10px;
+}
+
+.company img {
+  width: 100px;
+  height: 100px;
   border-radius: 3px;
 }
 
